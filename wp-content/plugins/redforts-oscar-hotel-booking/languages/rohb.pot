@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Redforts Software SL
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Redforts Oscar Hotel Booking\n"
+"Report-Msgid-Bugs-To: translations@redforts.com\n"
+"POT-Creation-Date: 2016-08-17 14:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accommodation ID(s)"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Area before single page contents"
+msgstr ""
+
+msgid "Arrival"
+msgstr ""
+
+msgid "Button color"
+msgstr ""
+
+msgid "Button text"
+msgstr ""
+
+msgid "Button text color"
+msgstr ""
+
+msgid ""
+"Check this if you want the booking engine to open in a new tab or window"
+msgstr ""
+
+msgid "Choose the color for the button text"
+msgstr ""
+
+msgid "Choose the color for the button when gets focused or pressed"
+msgstr ""
+
+msgid "Choose the color of the button"
+msgstr ""
+
+msgid "Client code"
+msgstr ""
+
+msgid "Content top"
+msgstr ""
+
+msgid "Custom css"
+msgstr ""
+
+msgid "Departure"
+msgstr ""
+
+msgid "Displays a booking form connected to your booking engine"
+msgstr ""
+
+msgid "Enable custom css for widgets (advanced settings)"
+msgstr ""
+
+msgid "Find room"
+msgstr ""
+
+msgid "Focused button color"
+msgstr ""
+
+msgid "Focused button text color"
+msgstr ""
+
+msgid "Insert a valid color"
+msgstr ""
+
+msgid ""
+"Leave empty to show the term \"find room\" translated in the appropiate "
+"language."
+msgstr ""
+
+msgid "Main settings"
+msgstr ""
+
+msgid "Make sure to visit the Help tab to learn how to use the plugin"
+msgstr ""
+
+msgid "More info"
+msgstr ""
+
+msgid "Not a correct client code"
+msgstr ""
+
+msgid "Open in new tab/window"
+msgstr ""
+
+msgid "Oscar & Wordpress"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Promotional code"
+msgstr ""
+
+msgid "Rate ID(s)"
+msgstr ""
+
+msgid "Redforts Oscar Hotel Booking"
+msgstr ""
+
+msgid "Redforts Oscar Hotel Booking options"
+msgstr ""
+
+msgid "Redforts booking widget"
+msgstr ""
+
+msgid "Shortcodes"
+msgstr ""
+
+msgid "Show promo code input"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Your client code in Oscar"
+msgstr ""

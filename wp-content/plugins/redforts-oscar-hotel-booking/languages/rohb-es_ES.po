@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: translations@redforts.com\n"
+"Last-Translator: Jankees Korstanje <jankees@redforts.com>\n"
+"Language-Team: Redforts Software S.L. <translations@redforts.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "Accommodation ID(s)"
+msgstr "ID(s) alojamientos"
+
+msgid "Appearance"
+msgstr "Aparencia"
+
+msgid "Area before single page contents"
+msgstr "Área por encima de los contenidos de página"
+
+msgid "Arrival"
+msgstr "Llegada"
+
+msgid "Button color"
+msgstr "Color del botón"
+
+msgid "Button text"
+msgstr "Texto del botón"
+
+msgid "Button text color"
+msgstr "Color del texto del botón"
+
+msgid "Check this if you want the booking engine to open in a new tab or window"
+msgstr "Marque esta opción si desea que el motor de reservas se abra en una nueva ventana (o pestaña)"
+
+msgid "Choose the color for the button text"
+msgstr "Elija el color del texto del botón"
+
+msgid "Choose the color for the button when gets focused or pressed"
+msgstr "Elija el color del botón cuando tiene el foco o es apretado"
+
+msgid "Choose the color of the button"
+msgstr "Elija el color del botón"
+
+msgid "Client code"
+msgstr "Código de cliente"
+
+msgid "Content top"
+msgstr "Contenido superior"
+
+msgid "Custom css"
+msgstr "CSS customizado"
+
+msgid "Departure"
+msgstr "Salida"
+
+msgid "Displays a booking form connected to your booking engine"
+msgstr "Muestra un formulario de reserva conectado a su motor"
+
+msgid "Enable custom css for widgets (advanced settings)"
+msgstr "Habilitar archivo customizado css"
+
+msgid "Find room"
+msgstr "Buscar habitación"
+
+msgid "Focused button color"
+msgstr "Color del botón focalizado"
+
+msgid "Focused button text color"
+msgstr "Color del texto del botón focalizado"
+
+msgid "Insert a valid color"
+msgstr "Introduzca un código de color válido"
+
+msgid "Leave empty to show the term \"find room\" translated in the appropiate language."
+msgstr "Dejar vacío para mostrar el texto \"find room\" traducido al idioma apropiado."
+
+msgid "Main settings"
+msgstr "Opciones"
+
+msgid "Make sure to visit the Help tab to learn how to use the plugin"
+msgstr "Visite la pestaña de Ayuda para aprender a usar el plugin"
+
+msgid "More info"
+msgstr "Más información"
+
+msgid "Not a correct client code"
+msgstr "El código de cliente no es correcto"
+
+msgid "Open in new tab/window"
+msgstr "Abrir en una nueva ventana/pestaña"
+
+msgid "Oscar & Wordpress"
+msgstr "Oscar & Wordpress"
+
+msgid "Overview"
+msgstr "Previa"
+
+msgid "Promotional code"
+msgstr "Código promocional"
+
+msgid "Rate ID(s)"
+msgstr "ID(s) tarifas"
+
+msgid "Redforts Oscar Hotel Booking"
+msgstr "Redforts Oscar Hotel Booking"
+
+msgid "Redforts Oscar Hotel Booking options"
+msgstr "Opciones Redforts Oscar Hotel Booking"
+
+msgid "Redforts booking widget"
+msgstr "Redforts booking widget"
+
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+msgid "Show promo code input"
+msgstr "Mostrar campo de promo code"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+msgid "Your client code in Oscar"
+msgstr "Su código de cliente en Oscar"
+
+#~ msgid "#main-help-tab-text"
+#~ msgstr ""
+#~ "Este plugin te permite añadir un widget de reserva a tu página web de una forma muy simple.  Puede añadir tantas widgets que necesitas, todos se mostrarán con el estilo que has definido en esta página.\n"
+#~ "\n"
+#~ "El widget más sencillo permite al cliente seleccionar las fechas de llegada y salida y lanzar la búsqueda pinchando en un botón.\n"
+#~ "\n"
+#~ "Para crear este widget en tu página solo necesitas editar la página y añadir el siguiente shortcode: <strong><pre>[rdf-booking-widget]</strong></pre>.\n"
+#~ "\n"
+#~ "Puedes cambiar el texto del botón añadiendo un texto al tag «button_txt=».\n"
+#~ "\n"
+#~ "Por ejemplo:\n"
+#~ "<strong><pre>[rdf-booking-widget button_txt='Comprobar disponibilidad']<strong></pre>\n"
+#~ "\n"
+#~ "También puede añadir el widget a las páginas que muestran un alojamiento específico y así permitir el cliente reservar el alojamiento mostrado.  Esto se consigue añadiendo el tag «acco=» al shortcode. Puede encontrar los ids de los alojamientos en PMS Oscar en <a href=\"https://oscar.redforts.com/setup,be,linkbuilder\">esta página</a>.\n"
+#~ "\n"
+#~ "Supongamos que el id del alojamiento es 1, el shortcode sería:\n"
+#~ "\n"
+#~ "<strong><pre>[rdf-booking-widget acco=1]<strong></pre>\n"
+#~ "\n"
+#~ "Puede añadir tantas tags al shortcode que quiere como por ejemplo:\n"
+#~ "\n"
+#~ "<strong><pre>[rdf-booking-widget button_txt='Reserva esta habitación' acco=1]<strong></pre>\n"
+#~ "\n"
+#~ "Hasta puede pre-seleccionar tarifas. Busca los códigos de las tarifas en Oscar, y añádelos al shortcode:\n"
+#~ "\n"
+#~ "<strong><pre>[rdf-booking-widget rate=3]<strong></pre>\n"
+#~ "\n"
+#~ "No olvide que puedes combinar todas las opciones:\n"
+#~ "\n"
+#~ "<strong><pre><strong><pre>[rdf-booking-widget acco=1 rate=3]<strong></pre>\n"
+#~ "\n"
+#~ "Si tiene dudas sobre los códigos visita la página del <a href=\"https://oscar.redforts.com/setup,be,linkbuilder\">shortcode builder</a> en Oscar, que automáticamente cree los shortcodes para tí."
+
+#~ msgid "Custom css for widgets (advanced settings)"
+#~ msgstr "CSS customizado para widgets (configuración avanzada)"
+
+#~ msgid "Page content top"
+#~ msgstr "Cabecera del contenido de la página"

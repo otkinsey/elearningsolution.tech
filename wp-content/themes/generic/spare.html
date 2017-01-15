@@ -1,0 +1,79 @@
+function getGalleryImageLink(param){
+
+  var slug = param;
+  console.log(slug);
+    $('.video_container').attr("style", "background:url('"+slug+"') no-repeat top center/100% ;");
+    $('.video_container').hide().fadeIn('slow');
+
+}
+var videoContainer = document.querySelector('.video_container');
+// var imageLinks = document.querySelector('.link_container');
+var vcScrollHeight = videoContainer.scrollY;
+var elems = document.getElementsByClassName('textItem');
+var animatedText = '';
+var index = 0;
+var incr=null, animate, animateIndex=0,animateElements;
+window.addEventListener('scroll', animateVideo, false);
+window.addEventListener('load', function(){ if( scrollY > 4100 ){ animateVideo(); }}, false);
+
+function animateVideo(){
+  console.log('1. animateVideo fired: 121');
+    if(window.scrollY > 4100){
+      window.removeEventListener('scroll', animateVideo);
+      var videoContainer = document.querySelector('.video_container');
+      var animateTimeout = setTimeout(function(){
+        videoContainer.className += ' moved';
+        console.log('2. after interval: line 129');
+         incr = window.setInterval( go, 2000 );
+      }, 500);
+   }
+}
+function go(){
+  if( index == 2){
+    console.log('4. after clear interval: 135');
+    console.log('line 136 - incr is: '+incr);
+    window.clearInterval(incr);
+    return;
+  }
+  else{ animateText(index); }
+}
+function animateText(param){
+    console.log('3. getImageUrl fired: 134');
+  if( index == 2){
+    console.log('4. after clear interval: 137');
+    console.log('line 138- incr is: '+incr);
+    clearInterval(incr);
+  }
+
+    var animatedText = elems[param];
+    animatedText.className += ' moved';
+    var timeout = setTimeout(function(){ animatedText.className = 'textItem movedOut'}, 1500);
+    index = param;
+    index += 1;
+    console.log('line 149 index is: '+index);
+    return index;
+
+}
+
+function setBgAttr(urlStr){
+  var a = document.querySelector('.video_container');
+  a.setAttribute('style', "background: url('"+urlStr+"') no-repeat top center/100%;");
+  index+=1;
+  return index;
+}
+
+function animateElements(){
+ var  animate = setInterval( function(){ animateNow(animateIndex) } , 1000);
+}
+
+function animateNow(param){
+  var container = document.querySelector('.presentation');
+  animateElements = container.getElementsByTagName('div');
+  animateIndex = param;
+  console.log('line: 165 - animateNow() index ='+animateIndex);
+  if( animateIndex > 3){ clearInterval(animate); console.log('animateNow inside if line: 166'); return;}
+  animateElements[animateIndex].className += ' moved';
+  animateIndex += 1;
+  console.log('line: 168 - length ='+animateElements.length);
+  return animateIndex;
+}

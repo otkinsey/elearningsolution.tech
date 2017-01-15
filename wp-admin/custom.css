@@ -1,0 +1,93 @@
+html, body {
+	background: white;
+}
+
+.admin_data{
+	border-style: solid;
+	border-color: rgba(200,200,200,.001);
+	border-width:1px;
+	transition: border-color .25s ease;
+	position: relative;
+	height: 40px;
+}
+.admin_data.update {
+	border-color: rgba(200,200,200,1);
+}
+#ajaxSend:before {
+	position: absolute;
+	right: 20px;
+	top: 4px;
+	color: #7bbe42;
+}
+#ajaxCancel:before {
+	position: absolute;
+	right: 40px;
+	top: 4px;
+	color: red;
+}
+.heading{
+	font-weight:bold;
+}
+.info_1
+.scheduled_exams input,
+.scheduled_exams select {
+	width: 90%;
+	height: 42px;
+	display: block;
+}
+
+.scheduled_exams button, .scheduled_exams .button, #addQuestion {
+	/* min-width: 100px; */
+	/* width: 100px; */
+	height: 36px;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #7BBE42;
+	transition: background .25s ease;
+}
+
+.scheduled_exams button:hover,
+.scheduled_exams .button:hover {
+	background: #4C9ED9;
+	color:white;
+}
+
+.updateColumn{ position:absolute;background:white;top:0;left:0; }
+.updateColumn input {
+	border: 0;
+}
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+	border-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	vertical-align: top;
+}
+
+.scheduled_exams .fa-times::before {
+	color: #aaa;
+}
+
+.admin_data .fa-times:before {
+	color:#7bbe42;
+	transition: color .25s ease
+}
+
+.admin_data .fa-times:hover:before {
+	color:#f20c1c;
+}
+
+.scheduled_exams .large-2 {
+	width:19% !important;
+	float:left !important;
+}
+
+.checkbox_column {
+	width:40px !important;
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	width: 160px;
+	background-color: #23282d;
+}
