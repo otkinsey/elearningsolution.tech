@@ -13,15 +13,14 @@
   $form = processData($_POST['formName']);
 
   if($form == 'contactUs'){
-      $name    = processData($_POST['name']);
+      $name    = processData($_POST['fullName']);
       $company    = processData($_POST['companyName']);
       $phone      = processData($_POST['phoneNumber']);
       $email          = processData($_POST['email']);
 
 
 
-      //$to = 'swilcox@amaxinsurance.com';
-      $to = 'okinsey@hearstmediaservices.com';
+      $to = 'okinsey@elearningsolution.tech';
       $subject = 'Contact Preferred Insurance';
       $from = 'Preferred Insurance webform';
       $headers = "From: $from";
@@ -41,9 +40,11 @@
 
       mail( $to, $subject, $message, $headers );
 
-      header('Location: home/?r=1#section_four');
+      header('Location: http://elearningsolution.tech/?r=1#section_four');
       exit();
   }
-
+  else{
+    header('Location: http://elearningsolution.tech/?r=error');
+  }
 
  ?>

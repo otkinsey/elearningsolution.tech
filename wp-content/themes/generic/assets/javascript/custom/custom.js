@@ -272,7 +272,7 @@ function controlToggle(){
       if( scrollY > 3600 ){
         console.log('move box two');
         boxTwo.className += ' moved';
-        var timeout = setTimeout( highightPlay, 2500);
+        var timeout = setTimeout( highlightPlay, 2500);
       }
       else{ return; }
     }
@@ -286,3 +286,7 @@ function controlToggle(){
   * function 2: stopTextAnimation
   *********************************/
     function animateBoxTwo(){}
+
+function refresh(){
+  location.reload();
+}

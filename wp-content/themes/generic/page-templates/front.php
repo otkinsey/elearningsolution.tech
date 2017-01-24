@@ -178,9 +178,9 @@ get_header(); ?>
 			<img src="<?php echo types_render_field('wa_image-one', array('output' => 'raw')); ?>" >
 		</div> -->
 		<div class="large-6 columns wow fadeInDown" data-wow-duration="1500ms" id='contact_form'>
-			<form action="http://localhost:8888/practice/eliteTrainingVideos/elspcf" method="POST">
+			<form action="elspcf" method="POST">
 				<header><h1>Schedule a meeting</h1><span class="subscript">We'd love to speak with you in person.</span></header>
-				<input type="text" name="name" placeholder = "name">
+				<input type="text" name="fullName" placeholder = "name">
 				<input type="text" name="companyName" placeholder = "company name">
 				<input type="text" name="phoneNumber" placeholder = "phone number">
 				<input type="text" name="email" placeholder = "email">
@@ -195,7 +195,7 @@ get_header(); ?>
 	<section class="" id="form_row">
 			<div class="large-6 columns" id='contact_form'>
 				<div class="form_response"> <h1>Thanks for your interest!</h1>  <header>We'll be contacting you shortly.</header></div>
-				<a href="home" ><button class="button">refresh</button></a>
+				<div class="button refresh" onclick="refresh()">refresh</div>
 			</div>
 	</section>
 	</section>

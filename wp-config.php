@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'elearningsolutions');
+define('DB_NAME', 'elearningsolution');
 
 /** MySQL database username */
-define('DB_USER', 'otkinsey');
+define('DB_USER', 'elsokjl');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'komet1');
+define('DB_PASSWORD', ';&rgq#e!lHw?');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'K <}6Le1ocaEPCn.<6FFIf<_otA5b :PYS5!h{+,71nquwuz(__IbA1#w0&VeLlI');
-define('SECURE_AUTH_KEY',  '^|)6v_>Zc %G3>J)Guf )<}*^2~^]*X!dL[rYV6B_hA^>j!udP_}?t3/C(&5/&`x');
-define('LOGGED_IN_KEY',    'SyzovL}U{Uvs8=}Q+=B<LG{aP37JYr:zHW3H{_[ {.W39 xz@t@G[uNLIrLq5y1_');
-define('NONCE_KEY',        'ONZi Fw3.6h(+~<<Kke<@w}6lINU*59SkxJ`U8<HZFs#hpI0ft;9=s4cAJ~TN!QX');
-define('AUTH_SALT',        '1m$2}OFs<pDdpaCV/|t+g7]=.vybyjy1.:uP_aCZr<Gga[`.75/,N<naWt{S<Bl/');
-define('SECURE_AUTH_SALT', '`Q:CTj&Pb-}gt;-kF?m=W]ZQK<,5l#F86l^|1T?N*!.PLFxeVF)$!c073@9yZO<S');
-define('LOGGED_IN_SALT',   'f!Awk1ij}5oRUqHn|2]sp8Q2~V_5`%2MybN=~P``{Lp(Q/5hNmD*n({BhuXYs[B@');
-define('NONCE_SALT',       '5kBsr<@uPj,5mG-*|t&P0 ewgIq7&<)`.(P L+f#9},ITukLrThZ`0*T|@e}?vKb');
+define('AUTH_KEY',         'B`1H@Es&LMx6Sr;2ugwNzu|msKi@%qPxOj`_a)fQ8?<o YVe}fS(3]f;Ji@#O;aP');
+define('SECURE_AUTH_KEY',  '%)ZC3;#{h-g&;-jf7|BQY49Aw1io7rL{(_Xsp-%n4RDED2!WQen3r<>3A`tG,l9k');
+define('LOGGED_IN_KEY',    '$O=5yEFIl_F) |^y+slnvi+W097!!]UGU)W=Qzk?}KaKD@ftgV]>Lq><}H*l[P[D');
+define('NONCE_KEY',        ',5bQVi?2{8Vu-d$RT|G[Cg+p[P*C-HxtFnZbh>-k(r^Kx1St^uD4/>d&G+(-/PEo');
+define('AUTH_SALT',        'dwVRA;MCQV1d<Wg-Fu]%U8h/?0?7R.$1?V1U(TOym8giB5Vkbg,`7U+HjDzi?:M@');
+define('SECURE_AUTH_SALT', 'yv1cJ;@|~4bO>A9?.Ei:j5N7kVnyF+:E)`(ddbl!<Z w2SfKgO&|{lpDp}6l;F|L');
+define('LOGGED_IN_SALT',   'sHS#l4;AZh%>Zp+^;3uC4VH%IYI/:P/S5W&v92~lU%n1tDAd.z)0XpJ&t~E|30KG');
+define('NONCE_SALT',       '0E5hCkZ_8*-sR.19gU4m,Nh;xiZWaJd3LO<k#@a`)$m4yaj:&r%%^kUnAc!TLwz;');
 
 /**#@-*/
 

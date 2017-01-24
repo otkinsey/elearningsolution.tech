@@ -216,6 +216,9 @@ section h4 {
 .presentation_text .textItem.movedOut{
 	right: 100%;
 }
+.button.refresh {
+    padding-top: 3% !important;
+}
 .rwd {
 	position: absolute;
 	bottom: 13px;
